@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopeureka" />
+        <module name="shopserviceapimember" />
+        <module name="shopserviceapiweixin" />
+        <module name="shopserviceapiweixinentity" />
+        <module name="shopservicemember" />
+        <module name="shopserviceweixin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shopapientityapi" options="-parameters" />
+      <module name="shopeureka" options="-parameters" />
+      <module name="shopparent" options="-parameters" />
+      <module name="shopserviceapi" options="-parameters" />
+      <module name="shopserviceapimember" options="-parameters" />
+      <module name="shopserviceapiweixin" options="-parameters" />
+      <module name="shopserviceapiweixinentity" options="-parameters" />
+      <module name="shopserviceimpl" options="-parameters" />
+      <module name="shopservicemember" options="-parameters" />
+      <module name="shopserviceweixin" options="-parameters" />
+    </option>
+  </component>
+</project>
